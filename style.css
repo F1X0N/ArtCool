@@ -24,11 +24,13 @@ a, i {
     color: #fff;
     padding: 7px 18px;
     border-radius: 0,5em;
+    transition: 0.5s;
 }
 
 .btn:hover {
     background-color: #333;
     color: #fff;
+    transform: scale(1.2);
 }
 
 /* HEADER */
@@ -85,5 +87,65 @@ a, i {
     bottom: 25px;
     padding: 20px;
     border-radius: 1em;
+
+}
+
+/* GALERIA */
+
+#destaque-name {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-description {
+    text-align: center;
+}
+
+#img-2, 
+#img-3,
+#img-4, 
+#img-5,
+#img-6, 
+#img-7 {
+    height: 250px;
+    border-radius: 1em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+#img-2 {
+    background-image: url(img/g_2.jpg);
+}
+
+#img-3 {
+    background-image: url(img/g_3.jpg);
+}
+
+#img-4 {
+    background-image: url(img/g_4.jpg);
+}
+
+#img-5 {
+    background-image: url(img/g_5.jpg);
+}
+
+#img-6 {
+    background-image: url(img/g_6.jpg);
+}
+
+#img-7 {
+    background-image: url(img/g_7.jpg);
+}
+
+#img-2:hover,
+#img-3:hover,
+#img-4:hover,
+#img-5:hover,
+#img-6:hover,
+#img-7:hover{
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.5) ;
+    
 
 }
