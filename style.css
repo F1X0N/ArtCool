@@ -99,6 +99,7 @@ a, i {
 
 .gallery-description {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #img-2, 
@@ -148,4 +149,33 @@ a, i {
     background-color: rgba(255, 255, 255, 0.5) ;
     
 
+}
+
+/* FOOTER */
+
+#social-media-icons {
+    margin-bottom: 30px;
+   /* padding: 50px;*/
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    
+}
+
+#social-media-icons :hover{
+    color: rgb(172, 172, 172);
+}
+
+.container-fluid p {
+    text-align: center;
+    color: #fff;
+}
+
+.row {
+    border-color:#555 ;
+}
+
+#footer-container {
+    height: 150px;
+    background-color: #25282e;
 }
